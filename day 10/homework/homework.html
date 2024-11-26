@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>წყლის გოჭი - ვიკიპედია</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #3366cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .content {
+            font-size: 1.1em;
+            margin-top: 15px;
+            line-height: 1.8;
+        }
+
+        .toggle-button {
+            cursor: pointer;
+            color: #3366cc;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 10px;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        .toggle-button:hover {
+            color: #ff9800;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            main {
+                padding: 20px;
+            }
+        }
+
+        /* Image Styling */
+        .capybara-image {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>წყლის გოჭი</h1>
+</header>
+
+<nav>
+    <a href="#about">მომხმარებლის ინფორმაცია</a>
+    <a href="#habitat">ცხოვრების ადგილი</a>
+    <a href="#diet">კვება</a>
+    <a href="#conservation">კონსერვაცია</a>
+    <a href="#references">წყაროები</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>მომხმარებლის ინფორმაცია</h2>
+        <p class="toggle-button" onclick="toggleVisibility('about-content')">Გაგზავნა/დამალვა</p>
+        <div id="about-content" class="content" style="display:none;">
+            <p>წყლის გოჭი (ლათ. <i>Hippopotamus amphibius</i>) არის დიდი ცხოველი, რომელიც ძირითადად აფრიკაში ცხოვრობს. წყლის გოჭები ერთ-ერთი ყველაზე დიდია მღრღნელების ჯგუფში. მათი თეთრი, მსხვილი სხეული და მაგარი ტყავი მათ უნიკალურ და ცნობილ ცხოველებად ხდის.</p>
+            
+            <!-- Capybara Image -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Capybara_2018.jpg" alt="Capybara" class="capybara-image">
+            <p>კაპიბარა არის მსოფლიოში ყველაზე დიდი მღრღნელი, რომელიც ძირითადად სამხრეთ ამერიკაში მდებარეობს. ამ ცხოველს აქვს მშვიდი და სოციალური ბუნება.</p>
+        </div>
+    </section>
+
+    <section id="habitat">
+        <h2>ცხოვრების ადგილი</h2>
+        <p class="toggle-button" onclick="toggleVisibility('habitat-content')">Გაგზავნა/დამალვა</p>
+        <div id="habitat-content" class="content" style="display:none;">
+            <p>წყლის გოჭები ცხოვრობენ ძირითადად მდინარეებსა და ტბებში. მათ სჭირდებათ წყალი და ბალახიანი ფართობები. ეს ცხოველები განიხილებიან როგორც ნახევრად-წყალმცურავი სახეობები. მათ აქვთ უნარი დიდხანს გაძლონ წყალქვეშ.</p>
+        </div>
+    </section>
+
+    <section id="diet">
+        <h2>კვება</h2>
+        <p class="toggle-button" onclick="toggleVisibility('diet-content')">Გაგზავნა/დამალვა</p>
+        <div id="diet-content" class="content" style="display:none;">
+            <p>წყლის გოჭი მცენარეული ცხოველია, მისი ძირითადად შედგება ბალახისგან. ისინი აქტიურად იკვებებიან, განსაკუთრებით საღამოობით და ღამით. მათი დიდი სახსრები და მძიმე ფეხები მათ საშუალებას აძლევს, სწრაფად გადაადგილდნენ ბალახიან ადგილებში.</p>
+        </div>
+    </section>
+
+    <section id="conservation">
+        <h2>კონსერვაცია</h2>
+        <p class="toggle-button" onclick="toggleVisibility('conservation-content')">Გაგზავნა/დამალვა</p>
+        <div id="conservation-content" class="content" style="display:none;">
+            <p>წყლის გოჭი იცნობა როგორც სახეობა, რომლის პოპულაცია თანდათან მცირდება. მათი რაოდენობა მცირე საფრთხეებშია, თუმცა, მათი დაცვა კვლავ მნიშვნელოვანია. ეკოლოგიური პრობლემები, როგორიცაა გარემოს დაბინძურება და ადამიანების მიერ მათი ეკოსისტემების დარღვევა, სერიოზულ პრობლემებს უქმნის ამ ცხოველებს.</p>
+        </div>
+    </section>
+
+    <section id="references">
+        <h2>წყაროები</h2>
+        <ul>
+            <li><a href="https://example.com" target="_blank">წყარო 1</a></li>
+            <li><a href="https://example.com" target="_blank">წყარო 2</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>ვიკიპედია - უფასო ანონიმური ვიკი</p>
+</footer>
+
+<script>
+    // JavaScript function to toggle the visibility of content
+    function toggleVisibility(id) {
+        var content = document.getElementById(id);
+        if (content.style.display === "none") {
+            content.style.display = "block";
+        } else {
+            content.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
