@@ -1,0 +1,106 @@
+button {
+    color: blueviolet;
+    text-align: center
+}
+
+
+h1{
+    color: aqua;
+    text-align: center
+}
+
+
+h2{
+  height: 50px;
+  color: blue;
+  width: 123px;
+}
+
+
+
+h3{
+color:rgb(red, green, blue) ;
+text-align: right;
+}
+
+
+h4{
+text-align: left;
+color: burlywood;
+height: 10px;
+}
+
+
+
+
+p{
+    color: hsl(from color h s l);
+    text-align: end;
+    background-color: aqua;
+
+}
+
+
+
+
+
+
+
+
+
+button{
+  text-align: start;
+  color: black;
+  border: 10px;
+  border-color: aqua;
+     
+}
+
+
+h1{
+  text-align: center;
+  color: rgb(255, 0, 0);
+  border: 20px;
+  border-color: gold;
+     
+}
+
+
+p{
+  text-align: end;
+  color: rgb(255, 255, 255);
+  border: 100px;
+  border-color: teal;
+     
+}
+
+
+h2{
+  text-align: left;
+  color:tomato;
+  border: 909px;
+  border-color: rgb(43, 0, 255);
+     
+}
+
+
+h3{
+  text-align: right;
+  color: rgb(30, 255, 0);
+  border: 54px;
+  border-color: rgb(179, 0, 255);
+     
+}
+
+
+
+
+button {
+  background-color: black;
+}
+
+
+p{
+  color: blueviolet;
+  text-align: center;
+}
