@@ -1,1 +1,2 @@
-#no classwork
+def saxelebi ():
+    name = input 
